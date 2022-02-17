@@ -67,8 +67,8 @@ const App = () => {
         <h1> Simple Calculator</h1>
       </div>
       <form>
+        <input type="text" id="result" value={currentSum} readOnly />
         <h3 className="output">
-          <input type="text" id="result" value={currentSum} readOnly />
           <input type="text" id="num" placeholder="enter a number" />
         </h3>
         <div>
