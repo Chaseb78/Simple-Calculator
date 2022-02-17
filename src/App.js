@@ -64,7 +64,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="app-title">
-        <h1> sdfsdfsdf</h1>
+        <h1> Simple Calculator</h1>
       </div>
       <form>
         <h3 className="output">
